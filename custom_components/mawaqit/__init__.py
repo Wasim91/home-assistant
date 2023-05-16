@@ -151,6 +151,7 @@ class MawaqitPrayerClient:
         name_servers=[]
         uuid_servers=[]
         CALC_METHODS=[]
+        #File is opened but does not exists !!
         with open('{}/data/all_mosquee_NN.txt'.format(current_dir), "r") as f:
           distros_dict = json.load(f)
         for distro in distros_dict:
