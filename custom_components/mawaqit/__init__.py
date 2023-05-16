@@ -142,10 +142,6 @@ class MawaqitPrayerClient:
 
         mosquee = self.config_entry.options.get("calculation_method")
 
-
-
-
-
         current_dir = os.path.dirname(os.path.realpath(__file__))
         
 
